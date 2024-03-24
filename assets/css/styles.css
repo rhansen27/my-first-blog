@@ -24,8 +24,9 @@ nav {
   height: 100vh;
 }
 .spacer {
-  background-color: black;
+  height: 99%;
   width: 10px;
+  /* border-top: 5px solid black; */
 }
 .form-container {
   display: flex;
@@ -67,6 +68,25 @@ nav {
   margin-top: 5px;
   border-radius: 5px;
   border: 1px solid black;
+}
+.input-form textarea {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.submit-button {
+  display: block;
+  width: 100%;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: white;
 }
 .logo {
   position: relative;
