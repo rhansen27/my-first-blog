@@ -1,0 +1,30 @@
+:root {
+  --dark-mode: hsl(0, 0%, 35%);
+  --dark-mode-text: hsla(0, 0%, 100%, 0.8);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 10px solid black;
+  /* background-color: var(--dark-mode);
+    color: var(--dark-mode-text); */
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+.input-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 1rem;
+}

@@ -3,32 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>My First Blog</title>
   </head>
   <body>
     <nav>
       <input type="button" class="toggle-light-mode" value="toggle" />
     </nav>
     <main>
-      <h2 class="blog-heading">What's on your mind?</h2>
-      <div class="input-form">
-        <h4 class="input-header">Username:</h4>
-        <input type="text" class="input-textbox" />
-        <h4 class="input-header">Title:</h4>
-        <input type="text" class="input-textbox" />
-        <h4 class="input-header">Content:</h4>
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          class="blog-content"
-        ></textarea>
-        <button class="submit">Submit</button>
-      </div>
-      <div class="logo">
-        <h1 class="logo-text">My First Blog</h1>
+      <div class="container">
+        <div class="logo-container">
+          <div class="logo">
+            <h1 class="logo-text">My First Blog</h1>
+          </div>
+        </div>
+
+        <div class="input-form">
+          <h2 class="blog-heading">What's on your mind?</h2>
+          <h4 class="input-header">Username:</h4>
+          <input type="text" class="input-textbox" />
+          <h4 class="input-header">Title:</h4>
+          <input type="text" class="input-textbox" />
+          <h4 class="input-header">Content:</h4>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            class="blog-content"
+          ></textarea>
+          <button class="submit">Submit</button>
+        </div>
       </div>
     </main>
+    <script src="./assets/js/form.js"></script>
   </body>
 </html>
