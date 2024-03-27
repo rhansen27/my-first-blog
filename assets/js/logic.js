@@ -1,1 +1,1 @@
-const $toggle = document.querySelector(".toggle-button");
+const $toggle = $(".toggle");
