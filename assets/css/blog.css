@@ -15,7 +15,7 @@ nav {
   justify-content: flex-end;
   width: 50%;
   padding: 1rem;
-  gap: 1rem;
+  gap: 2rem;
 }
 .container {
   display: flex;
@@ -46,4 +46,3 @@ nav {
 .card:hover {
   transform: scale(1.02);
 }
-```
